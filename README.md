@@ -1,7 +1,9 @@
 NAME
+
     isbn-match.pl
 
 DESCRIPTION
+
     Compares two lists of ebooks and print books respectively, and produces
     a list of titles matched by ISBN.
 
@@ -15,9 +17,11 @@ DESCRIPTION
     number or interface name for p- and e- respectively.
 
 VERSION
+
     Version 2015.05.13
 
 PROCESSING
+
     First we read in all the records from the ebooks list, and build a hash
     of records with each ISBN as key. (So a record with multiple ISBNs will
     be stored multiple times.)
@@ -31,9 +35,11 @@ PROCESSING
     csv format which you can import into Excel.
 
 AUTHOR
+
     Steve Thomas <stephen.thomas@adelaide.edu.au>
 
 LICENCE
+
     Copyright 2015 Steve Thomas
 
     Permission is hereby granted, free of charge, to any person obtaining a
